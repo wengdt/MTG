@@ -1,0 +1,755 @@
+/* PageFly Element Styles */
+						.lcHmGL { word-break: break-word; }
+.lcHmGL span { font-weight: inherit; text-decoration: inherit; }
+.lcHmGL i { margin-right: 0.3em; }
+.bgMQOP { position: relative; }
+.jklmHY { padding: var(--pf-s-lg); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .jklmHY { padding: var(--pf-s-md); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .jklmHY { padding: var(--pf-s-sm); }
+}
+@media (max-width: 767px) {
+  .jklmHY { padding: var(--pf-s-xs); }
+}
+.fTyjzF { position: relative; }
+.eYzxUD { margin: 0 calc(-1 * var(--pf-s-lg)); }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-md)); }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-sm)); }
+}
+@media (max-width: 767px) {
+  .eYzxUD { margin: 0 calc(-1 * var(--pf-s-xs)); }
+}
+.gtZHgp { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; overflow: hidden; }
+.bjKdkd__parallax { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; }
+.bjKdkd { padding: 15px 0px; position: relative; }
+.HrWqm > span:last-child { line-height: inherit; display: block; }
+#editor-dnd-wrapper .HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable] { display: block; }
+#editor-dnd-wrapper .HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:last-child[contenteditable]:empty::after { display: inline; }
+.HrWqm[class*="dropcap--"] > span:first-child { display: block; margin-right: 10px; float: left; width: 50px; height: 50px; line-height: 50px; }
+.HrWqm[class*="dropcap--"]:not(.dropcap--none) > span:first-child { margin-right: 20px; text-align: center; }
+.HrWqm.dropcap--none > span:first-child { text-align: inherit; border-radius: 0px; line-height: 1 !important; width: auto !important; height: auto !important; background: none !important; }
+.HrWqm.dropcap--circle > span:first-child { border-radius: 100%; }
+.HrWqm:not([class*="dropcap--"]) > span { margin-right: 0px !important; }
+.HrWqm ol, .HrWqm ul { list-style-position: inside; }
+.HrWqm blockquote { font-size: inherit; }
+.cbrLgP > span:last-child { line-height: inherit; display: block; margin-right: 0px !important; }
+#editor-dnd-wrapper .cbrLgP span + span[contenteditable] { display: block; }
+#editor-dnd-wrapper .cbrLgP span + span[contenteditable]:empty::after { display: inline; }
+.cbrLgP ol, .cbrLgP ul { list-style-position: inside; }
+.cbrLgP blockquote { font-size: inherit; }
+.fnmilh { display: inline-block; }
+.fnmilh[contenteditable="true"] { user-select: text; }
+.fnmilh { vertical-align: baseline; word-break: break-word; }
+.fnmilh:focus { outline: none; }
+.fnmilh::after { display: inline; }
+						/* PageFly Styles */
+						
+@media all {
+	.__pf .pf-9cc88990 {
+		padding-top: 250px;
+		 padding-bottom: 250px;
+		 background-size: cover;
+		 background-position: 50% 50%;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-04df9225--Learning-Management-Systems-LMS-Software-Providers-UK-The-Mandatory-Training-Group-UK-.jpg?v=1601632779");
+	}
+	.__pf .pf-93cb29d6 {
+		text-align: center;
+		 font-weight: 700;
+		 font-family: Lato;
+		 font-size: 35px;
+		 margin-bottom: 0px;
+		 margin-top: 0px;
+		 color: rgb(0, 0, 0);
+	}
+	.__pf .pf-728fcfa4 {
+		font-family: Roboto;
+		 text-align: left;
+		 font-size: 16px;
+	}
+	.__pf .pf-89e03a09 {
+		text-align: center;
+		 border-style: none;
+		 padding-top: 140px;
+		 padding-bottom: 140px;
+		 padding-right: 130px;
+		 background-size: cover;
+		 margin-top: 0px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-cb4eb1f2--Learning-Management-Systems-LMS-Software-Providers-UK-Cloudbased-ELearning-The-Mandatory-Training-Group-UK-.gif?v=1601631763");
+	}
+	.__pf .pf-3a09624b {
+		margin-bottom: 30px;
+	}
+	.__pf .pf-992bf42d {
+		padding-top: 10px;
+		 padding-bottom: 10px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-49c5c9a5--Image-template.jpg?v=1600252763");
+		 margin-bottom: 0px;
+		 background-size: cover;
+		 background-position: 50% 0%;
+	}
+	.__pf .pf-9439314f {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-4eb1f2a6--What-is-a-learning-management-system-LMS-Software-Providers-UK-Cloudbased-ELearning-The-Mandatory-Training-Group-UK-.jpg?v=1601631818");
+	}
+	.__pf .pf-aac6536f {
+		font-size: 26px;
+		 font-family: "Libre Baskerville";
+		 margin-bottom: 20px;
+		 color: rgb(17, 43, 44);
+		 margin-top: 20px;
+		 font-weight: 700;
+		 padding: 0px;
+	}
+	.__pf .pf-7a9d9b32 {
+		margin-bottom: 20px;
+		 font-family: "Libre Baskerville";
+		 font-size: 16px;
+		 line-height: 1.5;
+		 margin-top: 0px;
+	}
+	.__pf .pf-a18bfe7d {
+		font-size: 26px;
+		 font-family: "Libre Baskerville";
+		 margin-bottom: 20px;
+		 color: rgb(17, 43, 44);
+		 margin-top: 20px;
+		 font-weight: 700;
+		 padding: 0px;
+	}
+	.__pf .pf-fe7d3d89 {
+		margin-bottom: 20px;
+		 font-family: "Libre Baskerville";
+		 font-size: 16px;
+		 line-height: 1.5;
+		 margin-top: 0px;
+	}
+	.__pf .pf-3d89f163 {
+		margin: 0px;
+		 padding: 0px;
+	}
+	.__pf .pf-314ae54e {
+		background-size: cover;
+		 background-position: 50% 50%;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-b1f2a6bf--What-is-the-purpose-of-having-an-LMS-LMS-Software-Providers-UK-Cloudbased-ELearning-The-Mandatory-Training-Group-UK-.jpg?v=1601631873");
+	}
+	.__pf .pf-b321a447 {
+		background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-fae06459--background-7.jpg?v=1600344692");
+		 background-position: 50% 50%;
+	}
+	.__pf .pf-374f541d {
+		font-size: 32px;
+		 font-family: Lato;
+		 font-weight: 700;
+		 margin-bottom: 0px;
+		 margin-top: 0px;
+		 text-align: center;
+	}
+	.__pf .pf-a23957bd {
+		font-family: Roboto;
+		 font-size: 16px;
+		 padding-top: 10px;
+	}
+	.__pf .pf-541d5f9c {
+		text-align: center;
+	}
+	.__pf .pf-5f9c0263 {
+		margin-bottom: 10px;
+	}
+	.__pf .pf-02632aa8 {
+		width: 100%;
+	}
+	.__pf .pf-ae4f2442 {
+		font-size: 20px;
+		 font-family: Lato;
+		 margin-top: 0px;
+		 margin-bottom: 15px;
+		 font-weight: 700;
+	}
+	.__pf .pf-4bc522f5 {
+		font-size: 16px;
+		 line-height: 1.5;
+		 font-family: Roboto;
+		 font-weight: 400;
+		 margin-bottom: 0px;
+		 margin-top: 0px;
+	}
+	.__pf .pf-22f57015 {
+		padding: 20px 30px;
+	}
+	.__pf .pf-294ed96c {
+		width: 100%;
+	}
+	.__pf .pf-71a8a6f1 {
+		font-size: 20px;
+		 font-family: Lato;
+		 margin-top: 0px;
+		 margin-bottom: 15px;
+		 font-weight: 700;
+	}
+	.__pf .pf-e40f0138 {
+		line-height: 1.5;
+		 font-size: 16px;
+		 font-family: Roboto;
+		 font-weight: 400;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-0138907f {
+		padding: 20px 30px;
+	}
+	.__pf .pf-9ef1ac40 {
+		width: 100%;
+	}
+	.__pf .pf-0b2d7f2d {
+		font-size: 20px;
+		 font-family: Lato;
+		 margin-top: 0px;
+		 margin-bottom: 15px;
+		 font-weight: 700;
+	}
+	.__pf .pf-1ab0bfb8 {
+		font-size: 16px;
+		 font-family: Roboto;
+		 line-height: 1.5;
+		 margin-top: 0px;
+		 font-weight: 400;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-bfb8b44e {
+		padding: 20px 30px;
+	}
+	.__pf .pf-cf071f7f {
+		text-align: center;
+	}
+	.__pf .pf-425a2a2d {
+		width: 100%;
+	}
+	.__pf .pf-117579a0 {
+		font-size: 20px;
+		 font-family: Lato;
+		 margin-top: 0px;
+		 margin-bottom: 15px;
+		 font-weight: 700;
+	}
+	.__pf .pf-79a07b38 {
+		font-size: 16px;
+		 font-family: Roboto;
+		 line-height: 1.5;
+		 margin-top: 0px;
+		 font-weight: 400;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-7b38504f {
+		padding: 20px 30px;
+	}
+	.__pf .pf-c415cbf0 {
+		width: 100%;
+	}
+	.__pf .pf-68f21096 {
+		font-size: 20px;
+		 font-family: Lato;
+		 margin-top: 0px;
+		 margin-bottom: 15px;
+		 font-weight: 700;
+	}
+	.__pf .pf-1096442c {
+		font-size: 16px;
+		 font-family: Roboto;
+		 line-height: 1.5;
+		 margin-top: 0px;
+		 font-weight: 400;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-1ddbb961 {
+		padding: 20px 30px;
+	}
+	.__pf .pf-1f7fcc2d {
+		text-align: center;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-4d208e30--background-3.jpg?v=1600260068");
+		 font-family: Roboto;
+	}
+	.__pf .pf-ddd874c2 {
+		padding-top: 0px;
+		 padding-bottom: 0px;
+		 font-family: Lato;
+		 font-weight: 700;
+		 text-align: center;
+		 font-size: 36px;
+	}
+	.__pf .pf-925cab09 {
+		font-family: Roboto;
+		 text-align: center;
+		 font-weight: 700;
+		 font-size: 20px;
+		 padding-top: 5px;
+	}
+	.__pf .pf-112ec800 {
+		font-family: Roboto;
+		 font-size: 20px;
+		 text-align: center;
+		 font-weight: 700;
+		 padding-top: 5px;
+	}
+	.__pf .pf-43e3bef9 {
+		text-align: center;
+		 font-weight: 700;
+		 font-family: Roboto;
+		 font-size: 20px;
+		 padding-top: 5px;
+	}
+	.__pf .pf-c4a65cec {
+		text-align: center;
+		 font-weight: 700;
+		 font-size: 20px;
+		 font-family: Roboto;
+		 padding-top: 5px;
+	}
+	.__pf .pf-44b5b300 {
+		padding-top: 20px;
+		 padding-bottom: 20px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-e3bef9f5--background-5.jpg?v=1600341323");
+		 background-position: 50% 50%;
+		 background-size: cover;
+	}
+	.__pf .pf-0e9cbeb9 {
+		font-family: Lato;
+		 margin-bottom: 0px;
+		 margin-top: 0px;
+		 font-weight: 700;
+		 color: rgb(255, 255, 255);
+		 font-size: 36px;
+	}
+	.__pf .pf-0eeb6249 > ._DRkUWE.column {
+		text-align: center;
+	}
+	.__pf .pf-0eeb6249 {
+		text-align: center;
+	}
+	.__pf .pf-0eeb6249 > ._lRzUm6.column {
+		text-align: center;
+	}
+	.__pf .pf-62499009 {
+		padding-bottom: 50px;
+		 padding-top: 50px;
+		 background-color: rgb(74, 144, 226);
+	}
+	.__pf .pf-03570e5f {
+		font-weight: 700;
+		 font-family: Roboto;
+		 font-size: 18px;
+	}
+	.__pf .pf-4bbdb5c2 {
+		padding-top: 5px;
+		 font-size: 16px;
+		 font-family: Roboto;
+	}
+	.__pf .pf-ba736785 {
+		background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-fba9ea54--Organises-and-safely-stores-big-data.jpg?v=1600328990");
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 padding: 0px;
+		 margin: 0px;
+		 min-height: 250px;
+	}
+	.__pf .pf-3e54e380 {
+		background-size: cover;
+		 background-position: 0% 0%;
+		 min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-f2a6bf2f--Improve-resource-allocation-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632003");
+	}
+	.__pf .pf-94cb7d56 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-7d5669fb {
+		padding-top: 5px;
+		 font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-945eb970 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-b970f747 {
+		padding-top: 5px;
+		 font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-b5c2080e {
+		min-height: 250px;
+		 background-size: cover;
+		 background-position: 50% 50%;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-a6bf2f90--Monitor-learner-progress-and-performance-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632052");
+	}
+	.__pf .pf-051ab890 {
+		min-height: 250px;
+		 background-position: 50% 0%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-bf2f9051--Personalise-the-online-training-experience-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632092");
+	}
+	.__pf .pf-5e33fb02 {
+		font-family: Roboto;
+		 font-weight: 700;
+		 font-size: 18px;
+	}
+	.__pf .pf-fb02f4b1 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-afc21e19 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-1e1956c0 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-ad04cb1b {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-2f9051a5--Improve-elearning-accessibility-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632115");
+	}
+	.__pf .pf-d0cf1f4c {
+		background-size: cover;
+		 background-position: 50% 50%;
+		 min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-9051a519--Comprehensive-reports-and-analytics-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632242");
+	}
+	.__pf .pf-0e8c3f3e {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-3f3ee7b1 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-5a4b64bb {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-64bbdb29 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-f6340c01 {
+		min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-51a5198c--Responsive-multiplatform-design-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632307");
+	}
+	.__pf .pf-5df6428e {
+		min-height: 250px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-a5198c19--Intuitive-user-interface-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632340");
+	}
+	.__pf .pf-9a3b1cbb {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-1cbb74d8 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-020db018 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-b0189705 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-8e9c5150 {
+		min-height: 250px;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-198c1999--Continuing-user-support-services-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632366");
+	}
+	.__pf .pf-fa8e6004 {
+		background-position: 50% 50%;
+		 background-size: cover;
+		 min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-8c199901--ELearning-assessment-tools-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632399");
+	}
+	.__pf .pf-224fdd68 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-dd6861d1 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-2dc7df9d {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-df9d2c3c {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-0437131d {
+		background-size: cover;
+		 background-position: 50% 50%;
+		 min-height: 250px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-199901e3--Gamification-features-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632432");
+	}
+	.__pf .pf-ed2de925 {
+		min-height: 250px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-9901e328--Compliance-and-certification-support-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632472");
+	}
+	.__pf .pf-7113fed0 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-fed08f19 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-759e6a13 {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-6a133575 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-254bfe5d {
+		min-height: 250px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-e32804df--Social-learning-support-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632592");
+	}
+	.__pf .pf-fe5d5d29 {
+		min-height: 250px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-2804df92--LMS-localisation-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632730");
+	}
+	.__pf .pf-ccf003ec {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-03ecb9b5 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-c16759ad {
+		font-family: Roboto;
+		 text-align: left;
+		 background-repeat: repeat-x;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-97a1e4d5--unnamed.jpg?v=1600340552");
+	}
+	.__pf .pf-6361e899 {
+		font-family: Lato;
+		 font-size: 36px;
+		 text-align: center;
+		 font-weight: 700;
+		 margin-top: 0px;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-e899eca3 {
+		font-family: Roboto;
+		 text-align: center;
+		 font-weight: 700;
+	}
+	.__pf .pf-c7d12c29 {
+		padding-top: 50px;
+		 padding-bottom: 50px;
+		 background-color: rgb(74, 144, 226);
+	}
+	.__pf .pf-4669800d {
+		text-align: center;
+		 font-size: 30px;
+		 font-family: Oswald;
+		 border-style: solid;
+		 border-left-width: 3px;
+		 border-right-width: 3px;
+		 border-color: rgb(255, 255, 255);
+		 color: rgb(255, 255, 255);
+		 padding-top: 5px;
+		 padding-bottom: 5px;
+	}
+	.__pf .pf-83d6a04e {
+		background-color: rgb(245, 166, 35);
+		 padding: 45px 20px;
+		 border-top-right-radius: 10px;
+		 border-top-left-radius: 10px;
+	}
+	.__pf .pf-6cc20ece {
+		text-align: center;
+		 font-size: 30px;
+		 font-family: Oswald;
+		 border-style: solid;
+		 border-color: rgb(255, 255, 255);
+		 color: rgb(255, 255, 255);
+		 padding-top: 5px;
+		 padding-bottom: 5px;
+	}
+	.__pf .pf-a04e7614 {
+		background-color: rgb(126, 211, 33);
+		 padding: 45px 20px;
+		 border-top-left-radius: 10px;
+		 border-top-right-radius: 10px;
+	}
+	.__pf .pf-eda55b8a {
+		text-align: center;
+		 font-size: 30px;
+		 font-family: Oswald;
+		 border-style: solid;
+		 border-color: rgb(255, 255, 255);
+		 color: rgb(255, 255, 255);
+		 padding-top: 5px;
+		 padding-bottom: 5px;
+	}
+	.__pf .pf-7614254f {
+		background-color: rgb(80, 227, 194);
+		 padding: 45px 20px;
+		 border-top-left-radius: 10px;
+		 border-top-right-radius: 10px;
+	}
+	.__pf .pf-254f76b1 {
+		padding-top: 10px;
+		 margin-bottom: 0px;
+	}
+	.__pf .pf-d74c59c5 {
+		text-align: center;
+		 font-size: 18px;
+		 font-family: Roboto;
+		 padding-top: 15px;
+	}
+	.__pf .pf-8ef7e73e {
+		background-color: rgb(255, 255, 255);
+		 padding-left: 10px;
+		 padding-right: 10px;
+		 border-bottom-left-radius: 10px;
+		 border-bottom-right-radius: 10px;
+		 margin-top: -32px;
+		 border-style: solid;
+		 border-color: rgb(245, 166, 35);
+	}
+	.__pf .pf-3611fe9f {
+		text-align: center;
+		 font-size: 18px;
+		 font-family: Roboto;
+		 background-color: rgb(255, 255, 255);
+		 padding-top: 15px;
+	}
+	.__pf .pf-e73edd12 {
+		background-color: rgb(255, 255, 255);
+		 padding-left: 10px;
+		 padding-right: 10px;
+		 border-bottom-left-radius: 10px;
+		 border-bottom-right-radius: 10px;
+		 margin-top: -32px;
+		 border-style: solid;
+		 border-color: rgb(126, 211, 33);
+	}
+	.__pf .pf-6b72ddd2 {
+		text-align: center;
+		 font-size: 18px;
+		 font-family: Roboto;
+		 padding-top: 15px;
+	}
+	.__pf .pf-dd12d5ea {
+		background-color: rgb(255, 255, 255);
+		 padding-right: 10px;
+		 padding-left: 10px;
+		 border-bottom-left-radius: 10px;
+		 border-bottom-right-radius: 10px;
+		 margin-top: -32px;
+		 border-style: solid;
+		 border-color: rgb(80, 227, 194);
+	}
+	.__pf .pf-2c29dffa {
+		padding-top: 20px;
+		 padding-bottom: 56px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 padding-right: 5px;
+		 margin-bottom: 0px;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-a1173b8c--womanusingalaptopandconnectingVF9JESY.jpg?v=1600852652");
+	}
+	.__pf .pf-85617bce {
+		text-align: center;
+		 font-family: Roboto;
+		 font-size: 16px;
+	}
+	.__pf .pf-2e135ad3 {
+		min-height: 250px;
+		 background-position: 50% 50%;
+		 background-size: cover;
+		 background-image: url("https://cdn.shopify.com/s/files/1/0937/2788/t/33/assets/pf-01e32804--Upload-your-local-documents-Learning-Management-System-Benefits-LMS-Software-Providers-The-Mandatory-Training-Group-UK-.jpg?v=1601632531");
+	}
+	.__pf .pf-5af4896b {
+		font-family: Roboto;
+		 font-size: 18px;
+		 font-weight: 700;
+	}
+	.__pf .pf-896bb7a3 {
+		font-family: Roboto;
+		 font-size: 16px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.__pf .pf-9cc88990 {
+		padding-top: 100px;
+		 padding-bottom: 85px;
+	}
+	.__pf .pf-992bf42d {
+		padding-top: 35px;
+		 padding-bottom: 35px;
+	}
+	.__pf .pf-aac6536f {
+		font-size: 24px;
+	}
+	.__pf .pf-a18bfe7d {
+		font-size: 24px;
+	}
+	.__pf .pf-374f541d {
+		font-size: 24px;
+	}
+	.__pf .pf-1f7fcc2d {
+		padding-bottom: 0px;
+	}
+	.__pf .pf-0e9cbeb9 {
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.__pf .pf-9cc88990 {
+		padding-left: 200px;
+		 padding-right: 200px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.__pf .pf-9cc88990 {
+		padding-left: 0px;
+		 padding-right: 0px;
+	}
+}
+						
+
+ 
