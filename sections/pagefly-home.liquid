@@ -1,3 +1,4 @@
+
 <style>
   html,
   /* start body container */
@@ -37,7 +38,7 @@
     list-style-position: inside;
     padding-left: 0;
   }
-  
+
   a {
     text-decoration: none;
     font-size: 16px;
@@ -66,6 +67,12 @@
   .pdp-main {
     padding: 24px;
   }
+
+  .details {
+    background-color: #05284c;
+    color: #ffffff;
+  }
+
   /* end body container */
 
   /* start navigation*/
@@ -76,14 +83,11 @@
 
   .anchor-end {
     border-bottom: 1px solid #c8c8c8;
-
   }
 
   .anchor-left {
     border-left: 1px solid #c8c8c8;
-  
   }
- 
 
   .pdp-categories div {
     padding: 16px 0px;
@@ -92,13 +96,15 @@
 
   /* start product detail*/
   .pdp-product-details,
-  .pdp-detail-content {
+  .pdp-detail-content,
+  .pdp-certifications {
     display: flex;
     width: 100%;
   }
   .pdp-detail-content-container,
   .pdp-course-content,
-  .pdp-learning {
+  .pdp-learning,
+  .pdp-certifications {
     width: 100%;
   }
 
@@ -111,7 +117,8 @@
     display: flex;
   }
 
-  .pdp-course-content, .pdp-learning div {
+  .pdp-course-content,
+  .pdp-learning div {
     width: 100%;
   }
 
@@ -125,10 +132,44 @@
     padding: 0px 24px;
   }
 
+  .pdp-certifications {
+    justify-content: space-between;
+  }
+
+  .pdp-certifications-image-style {
+    text-align: center;
+    width: 20%;
+  }
+
+  .pdp-certification-image {
+    width: 110px;
+    height: 110px;
+  }
+
   /* end product detail*/
+
+  /* start product basket */
+  .pdp-product-basket {
+    height: 100%;
+    width: 300px;
+  }
+
+  .product-basket-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 226px;
+  }
+
+  .product-carrousel {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  /* end product basket */
 </style>
 
-<body >
+<body>
   <div class="container" style="margin-top: 2rem;">
     <div class="pdp-border pdp-nav">
       <div class="pdp-anchor">
@@ -266,10 +307,10 @@
           </div>
         </div>
       </div>
-      <div class="anchor-end">
+      <div class="anchor-end" style="margin-top: 1rem;">
         <h2>Course Overview</h2>
 
-        <img src="image1.png" />
+        <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image1.png?v=1725436896" width="100%" />
 
         <p>
           Welcome to The Mandatory Training Group's CSTF Safeguarding Adults
@@ -326,61 +367,197 @@
           </div>
         </div>
       </div>
-      <div class="anchor-end" style="padding-bottom: 24px;">
+      <div class="anchor-end" style="padding-bottom: 24px">
         <h2>Interactive Demo</h2>
-        <iframe
-          width="750"
-          height="315"
-          src="https://www.youtube.com/embed/hLvWy2b857I?si=VE380SMEQIfaUTcu"
-          frameborder="0"
-        ></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/NdkWrWjrBLA?si=kQQFZoUgBfEuItjb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
       </div>
       <div class="anchor-end">
         <h2>Who is this course for?</h2>
-        <p>This course is suitable for all practitioners who have regular contact with patients, their families or carers, or the public.</p>
-       
+        <p>
+          This course is suitable for all practitioners who have regular
+          contact with patients, their families or carers, or the public.
+        </p>
       </div>
       <div class="anchor-end">
         <h2>Aims</h2>
         <p>The aims of this CSTF Safeguarding Adults online course are to:</p>
         <ul>
-          <li>Understand the key terms and definitions to recognise abuse in adults.</li>
-          <li>Understand effective information sharing and record keeping when documenting and reporting safeguarding concerns.</li>
-          <li>Familiarise the different factors that could lead to radicalisation in adults.</li>
+          <li>
+            Understand the key terms and definitions to recognise abuse in
+            adults.
+          </li>
+          <li>
+            Understand effective information sharing and record keeping when
+            documenting and reporting safeguarding concerns.
+          </li>
+          <li>
+            Familiarise the different factors that could lead to
+            radicalisation in adults.
+          </li>
         </ul>
       </div>
-      <div class="pdp-learning" style="padding-top: 16px;">
-         <div>
+      <div class="pdp-learning" style="padding-top: 16px">
+        <div>
           <h2>Learning Objectives</h2>
           <p>This CSTF Safeguarding Adults online course will:</p>
-          <ul style="padding-left: 10px; padding-right: 10px;">
-            <li>Discuss the key terms and definitions in relation to safeguarding adults.</li>
+          <ul style="padding-left: 10px; padding-right: 10px">
+            <li>
+              Discuss the key terms and definitions in relation to
+              safeguarding adults.
+            </li>
             <li>Review the different types of abuse in adults.</li>
-            <li>Consider how and when an adult might require an advocate in line with legislation and guidance.</li>
-            <li>Consider how and when to refer to social care following organisational policies if an adult safeguarding concern is identified.</li>
-            <li>Discuss how to document safeguarding concerns appropriately.</li>
+            <li>
+              Consider how and when an adult might require an advocate in line
+              with legislation and guidance.
+            </li>
+            <li>
+              Consider how and when to refer to social care following
+              organisational policies if an adult safeguarding concern is
+              identified.
+            </li>
+            <li>
+              Discuss how to document safeguarding concerns appropriately.
+            </li>
             <li>Understand how to maintain appropriate records.</li>
-            <li>Examine the relevant legislation in place to safeguard adults.</li>
+            <li>
+              Examine the relevant legislation in place to safeguard adults.
+            </li>
             <li>Discuss the risk factors for radicalisation</li>
           </ul>
-          <img src="image2.png" />
-         </div>
-         <div class ="anchor-left" style="padding-left: 14px;">
+          <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image2.png?v=1725436895" />
+        </div>
+        <div class="anchor-left" style="padding-left: 14px">
           <h2>Learning Outcomes</h2>
-          <p>On completion of this CSTF Safeguarding Adults online course, the learner will be able to:</p>
-          <ul style="padding-left: 10px; padding-right: 10px;">
-
+          <p>
+            On completion of this CSTF Safeguarding Adults online course, the
+            learner will be able to:
+          </p>
+          <ul style="padding-left: 10px; padding-right: 10px">
             <li>Define safeguarding, harm and abuse.</li>
-            <li>Define the different types of abuse and give examples of the signs, symptoms and indicators.</li>
-            <li>Ensure effective advocacy is provided where required, in line with legislation and professional guidance.</li>
-            <li>Describe your role, responsibilities, and professional boundaries as well as those of your colleagues in a multidisciplinary team and multi-agency environment.</li>
-            <li>Analyse how and when to refer to social care following organisational policies if adult safeguarding concerns are identified.</li>
-            <li>Demonstrate how to appropriately document safeguarding concerns in a format that informs the relevant staff and agencies.</li>
+            <li>
+              Define the different types of abuse and give examples of the
+              signs, symptoms and indicators.
+            </li>
+            <li>
+              Ensure effective advocacy is provided where required, in line
+              with legislation and professional guidance.
+            </li>
+            <li>
+              Describe your role, responsibilities, and professional
+              boundaries as well as those of your colleagues in a
+              multidisciplinary team and multi-agency environment.
+            </li>
+            <li>
+              Analyse how and when to refer to social care following
+              organisational policies if adult safeguarding concerns are
+              identified.
+            </li>
+            <li>
+              Demonstrate how to appropriately document safeguarding concerns
+              in a format that informs the relevant staff and agencies.
+            </li>
             <li>Distinguish fact from opinion.</li>
-            <li>State the key statutory and non-statutory guidance and legislation for adult safeguarding.</li>
-            <li>State how to prevent radicalisation in adults and how to support individuals who are being drawn into terrorist-related activities.</li>
+            <li>
+              State the key statutory and non-statutory guidance and
+              legislation for adult safeguarding.
+            </li>
+            <li>
+              State how to prevent radicalisation in adults and how to support
+              individuals who are being drawn into terrorist-related
+              activities.
+            </li>
           </ul>
-         </div>
+        </div>
+      </div>
+      <div class="anchor-end"></div>
+      <div class="anchor-end">
+        <h2>Certifications</h2>
+        <div class="pdp-certifications">
+          <div>
+            <p class="w-b" style="font-size: 18px">
+              End of course assessment
+            </p>
+            <ul>
+              <li>Complete an online end of course assessment</li>
+              <li>Pass with 80% or higher for a FREE CPD certificate.</li>
+            </ul>
+          </div>
+          <div class="pdp-certifications-image-style">
+            <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/school-online.png?v=1725436896" class="pdp-certification-image" />
+          </div>
+        </div>
+        <p class="w-b" style="font-size: 18px">Certification</p>
+        <div class="pdp-certifications">
+          <div>
+            <ul>
+              <li>Download, save, or print your quality CPD certificate</li>
+              <li>
+                Internationally recognised evidence for compliance, audit, or
+                CPD.
+              </li>
+            </ul>
+          </div>
+          <div class="pdp-certifications-image-style">
+            <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/certificate_d247333e-447c-4dca-81f8-2f0802b6909f.png?v=1725436896" class="pdp-certification-image" />
+          </div>
+        </div>
+        <p class="w-b" style="font-size: 18px">Course accreditation</p>
+        <div class="pdp-certifications">
+          <div>
+            <ul>
+              <li>The CPD Certification Service accredits our courses</li>
+              <li>Conform to universally accepted CPD guidelines</li>
+              <li>Aligned with the latest best practices.</li>
+            </ul>
+          </div>
+          <div class="pdp-certifications-image-style">
+            <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/verify.png?v=1725436896" class="pdp-certification-image" />
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>FAQs</h2>
+        <details class="details">
+          <summary>Question 1</summary>
+          <p>this is the content</p>
+        </details>
+        <details class="details">
+          <summary>Question 2</summary>
+          <p>this is the content</p>
+        </details>
+        <details class="details">
+          <summary>Question 3</summary>
+          <p>this is the content</p>
+        </details>
+      </div>
+      <div class="anchor-end"></div>
+      <div>
+        <h2>Reviews</h2>
+      </div>
+    </div>
+    <div class="pdp-border pdp-product-basket">
+      <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image3.png?v=1725438051" alt="" class="product-basket-img" />
+      <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image4.png?v=1725438049" class="product-carrousel" />
+      <p style="text-align: center; font-weight: bold">
+        Learn. Develop. Comply.
+      </p>
+      <p style="text-align: center">Quantity</p>
+      <div style="width: 100%; text-align: center; padding-bottom: 2rem">
+        <button
+          type="button"
+          style="
+            background-color: #00af52;
+            color: #ffffff;
+            width: 225px;
+            height: 64px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+          "
+        >
+          Add to basket
+        </button>
       </div>
     </div>
   </div>
