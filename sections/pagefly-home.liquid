@@ -1,12 +1,16 @@
 
 <style>
-  html,
   /* start body container */
+  html,
   body {
     font-family: "Inter", sans-serif;
     font-weight: 400; /* Default weight */
     line-height: 1.6; /* Optional: Adjust line height for better readability */
   }
+
+  html {
+  scroll-behavior: smooth;
+}
 
   .p-color {
     color: #05284c;
@@ -166,23 +170,44 @@
     text-align: center;
     padding: 1rem;
   }
+
+  .product-basket-bg-color {
+    font-size: 12px;
+    background-color: #f8edeb;
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .product-basket-padding {
+    padding: 0px 1rem;
+  }
   /* end product basket */
+
+  .product-basket-button {
+    background-color: #00af52;
+    color: #ffffff;
+    width: 225px;
+    height: 64px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+  }
 </style>
 
 <body>
-  <div class="container" style="margin-top: 2rem;">
+  <div class="container">
     <div class="pdp-border pdp-nav">
       <div class="pdp-anchor">
-        <h2>Summary</h2>
-        <h2>Course Overview</h2>
-        <h2>Course Content</h2>
-        <h2>Interactive Demo</h2>
-        <h2>Audience</h2>
-        <h2>Course Aims</h2>
-        <h2>Learnings</h2>
-        <h2>Certifications</h2>
-        <h2>FAQs</h2>
-        <h2>Reviews</h2>
+        <a href="#summary_link"><h2>Summary</h2></a>
+        <a href="#course_overview_link"><h2>Course Overview</h2></a>
+        <a href="#course_content_link"><h2>Course Content</h2></a>
+        <a href="#interactive_demo_link"><h2>Interactive Demo</h2></a>
+        <a href="#audience_link"><h2>Audience</h2></a>
+        <a href="#course_aims_link"><h2>Course Aims</h2></a>
+        <a href="#learnings_link"><h2>Learnings</h2></a>
+        <a href="#certifications_link"><h2>Certifications</h2></a>
+        <a href="#faq_link"><h2>FAQS</h2></a>
+        <a href="#reviews_link"><h2>Reviews</h2></a>
 
         <div class="anchor-end"></div>
       </div>
@@ -254,7 +279,7 @@
       </div>
     </div>
 
-    <div class="pdp-border pdp-main">
+    <div class="pdp-border pdp-main" id="summary_link">
       <h1>CSTF Safeguarding Adults - 2</h1>
       <div class="main-content">
         <p>
@@ -307,7 +332,7 @@
           </div>
         </div>
       </div>
-      <div class="anchor-end" style="margin-top: 1rem;">
+      <div class="anchor-end" style="margin-top: 1rem; id="course_overview_link">
         <h2>Course Overview</h2>
 
         <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image1.png?v=1725436896" width="100%" />
@@ -340,7 +365,7 @@
           and procedures.
         </p>
       </div>
-      <div class="anchor-end">
+      <div class="anchor-end" id="course_content_link">
         <h2>Course Content</h2>
         <p>
           This CSTF Safeguarding Adults online course is divided into the
@@ -367,19 +392,23 @@
           </div>
         </div>
       </div>
-      <div class="anchor-end" style="padding-bottom: 24px">
+      <div
+        class="anchor-end"
+        style="padding-bottom: 24px"
+        id="interactive_demo_link"
+      >
         <h2>Interactive Demo</h2>
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/NdkWrWjrBLA?si=kQQFZoUgBfEuItjb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
         </iframe>
       </div>
-      <div class="anchor-end">
+      <div class="anchor-end" id="audience_link">
         <h2>Who is this course for?</h2>
         <p>
           This course is suitable for all practitioners who have regular
           contact with patients, their families or carers, or the public.
         </p>
       </div>
-      <div class="anchor-end">
+      <div class="anchor-end" id="course_aims_link">
         <h2>Aims</h2>
         <p>The aims of this CSTF Safeguarding Adults online course are to:</p>
         <ul>
@@ -397,7 +426,7 @@
           </li>
         </ul>
       </div>
-      <div class="pdp-learning" style="padding-top: 16px">
+      <div class="pdp-learning" style="padding-top: 16px" id="learnings_link">
         <div>
           <h2>Learning Objectives</h2>
           <p>This CSTF Safeguarding Adults online course will:</p>
@@ -471,7 +500,7 @@
         </div>
       </div>
       <div class="anchor-end"></div>
-      <div class="anchor-end">
+      <div class="anchor-end" id="certifications_link">
         <h2>Certifications</h2>
         <div class="pdp-certifications">
           <div>
@@ -516,7 +545,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div id="faq_link">
         <h2>FAQs</h2>
         <details class="details">
           <summary>Question 1</summary>
@@ -532,7 +561,7 @@
         </details>
       </div>
       <div class="anchor-end"></div>
-      <div>
+      <div id="reviews_link">
         <h2>Reviews</h2>
       </div>
     </div>
@@ -540,24 +569,23 @@
       <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image3.png?v=1725438051" alt="" class="product-basket-img" />
       <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image4.png?v=1725438049" class="product-carrousel" />
       <p style="text-align: center; font-weight: bold">
-        Learn. Develop. Comply.
+        Learn. <span style="color: #00af52"> Develop.</span> Comply.
       </p>
       <p style="text-align: center">Quantity</p>
       <div style="width: 100%; text-align: center; padding-bottom: 2rem">
-        <button
-          type="button"
-          style="
-            background-color: #00af52;
-            color: #ffffff;
-            width: 225px;
-            height: 64px;
-            text-align: center;
-            border: none;
-            border-radius: 5px;
-          "
-        >
+        <button type="button" class="product-basket-button">
           Add to basket
         </button>
+        <p>Add to wishlist</p>
+        <div class="product-basket-padding">
+          <div class="product-basket-bg-color">
+            <p>Instant access</p>
+            <p>100% money back guarantee</p>
+            <p>24/7 online support</p>
+            <p>Learn anytime. anywhere.</p>
+            <p>Assessment and certification</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
