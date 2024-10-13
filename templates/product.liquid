@@ -596,17 +596,79 @@
     </div>
   </div>
   <div class="pdp-border pdp-product-basket">
-    <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image3.png?v=1725438051" alt="" class="product-basket-img" />
-    <img src="https://cdn.shopify.com/s/files/1/0706/8965/2977/files/image4.png?v=1725438049" class="product-carrousel" />
+    <div class="product-img-box">
+      <div class="c_product-img-list">
+        {% include 'c_media' %}
+      </div>
+    </div> 
     <p style="text-align: center; font-weight: bold">
       Learn. <span style="color: #00af52"> Develop.</span> Comply.
     </p>
-    <p style="text-align: center">Quantity</p>
+    <div class="product-type-main">  
+      <form class="product-form" id="product-main-form" action="/cart/add" method="post" enctype="multipart/form-data" data-product-id="{{product.id}}" data-id="{{ product.handle }}"> 
+        <div id="product-variants" class="product-options" {% if product.options.size == 1 and product.options.first == 'Title' %}style="display: none;"{% endif %}> 
+          <select id="product-selectors" name="id" style="display: none;">
+            {% for variant in product.variants %}
+            {% if variant.available %}
+            <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+            {% else %}
+            <option disabled="disabled">
+              {{ variant.title }} - {{'products.product.sold_out' | t}}
+            </option>
+            {% endif %}
+            {% endfor %}
+          </select> 
+        </div>  
+        <div class="product-options-bottom"> 
+          <div class="add-to-cart-box custom-add-to-cart-box">
+            <div class="input-box pull-left"> 
+              <div class="phar">
+                <p>Quantity</p>
+              </div>
+              <div class="quantity-input" >
+                <div class="increase items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty )) result.value++;return false;">
+                  <i class="icon-up-dir"></i>
+                </div>
+                <input type="text" id="qty" name="quantity" value="1" min="1" class="quantity-selector"> 
+                <div class="reduced items" onclick="var result = document.getElementById('qty'); var qty = result.value; if( !isNaN( qty ) &amp;&amp; qty > 1 ) result.value--;return false;">
+                  <i class="icon-down-dir"></i>
+                </div>
+              </div>
+            </div>
+            <div class="actions">
+              <div class="action-list addtocart">
+                <div class="button-wrapper">
+                  {% if product.available %}
+                  <div class="button-wrapper-content">
+                    <button type="submit" name="add" class="product-basket-button">                      
+                      <span>
+                        <span {% if settings.language_enable %}data-translate="products.product.add_to_cart"{% endif %}>{{ 'products.product.add_to_cart' | t }}</span>
+                      </span>
+                    </button> 
+                  </div>
+                  {% else %} 
+                  <div class="button-wrapper-content">
+                    <i class="icon-cart"></i>
+                    <button href="javascript:;" class="product-basket-button">
+                      <span>
+                        <span {% if settings.language_enable %}data-translate="products.product.sold_out"{% endif %}>{{ 'products.product.sold_out' | t }}</span>
+                      </span>
+                    </button>  
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+              {% if settings.disable_addtolink == blank %}
+              <div class="action-list wishlist">
+                {% include 'c_wishlist-item'%}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </form>   
+    </div>
     <div style="width: 100%; text-align: center; padding-bottom: 2rem">
-      <button type="button" class="product-basket-button">
-        Add to basket
-      </button>
-      <p>Add to wishlist</p>
       <div class="product-basket-padding">
         <div class="product-basket-bg-color">
           <p>Instant access</p>

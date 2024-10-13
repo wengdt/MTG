@@ -188,4 +188,59 @@ html,
     text-align: center;
     border: none;
     border-radius: 5px;
+    margin-top: 1rem;
   }
+
+  .custom-add-to-cart-box .input-box
+  {
+    display: flex;
+  }
+  .product-type-main .product-form
+  {
+    width: 100% !important;
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+  }
+
+  .c_link-wishlist{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .c_add-to-links{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .increase, .reduced {
+    cursor: pointer;
+  }
+
+  .quantity-selector{
+    text-align:center; 
+    width: 40px;
+    height:40px; 
+    border-radius: 10px;
+    color: #000000; 
+    border: 1px solid #D9D9D9;
+  }
+
+  .input-box{
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-box .phar{
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .custom-add-to-cart-box   .quantity-input{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  }
+
